@@ -10,6 +10,15 @@
 <!-- Ivan means username in below README.md -->
 <!-- Also feel free to update second URL to any URL -->
 [![Ivan's github stats](https://github-readme-stats.vercel.app/api?username=IvanRizkyanto&count_private=true&include_all_commits=true&theme=radical)](https://google.com)
+
+## &#x1f4c8; GitHub Stats
+<a href="https://github.com/IvanRizkyanto">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sProDev&hide=css&hide_border=true&layout=compact" />
+</a>
+<a href="https://github.com/IvanRizkyanto">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=sProDev&show_icons=true&hide_border=true&hide=issues&count_private=true" alt="IvanRizkyanto's GitHub Stats" />
+</a>
+
 ## Connect with me:
 [<img align="left" alt="Ivan Rizkyanto | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
 [<img align="left" alt="Ivan Rizkya Susanto | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
