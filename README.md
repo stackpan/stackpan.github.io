@@ -9,7 +9,6 @@
 - ⚡ Fun fact - Too many
 <!-- Ivan means username in below README.md -->
 <!-- Also feel free to update second URL to any URL -->
-[![Ivan's github stats](https://github-readme-stats.vercel.app/api?username=IvanRizkyanto&count_private=true&include_all_commits=true&theme=radical)](https://google.com)
 
 ## GitHub Stats
 <a href="https://github.com/IvanRizkyanto">
