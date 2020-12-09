@@ -1,6 +1,6 @@
 ### Hi, I'm Ivan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 [![Website](https://img.shields.io/badge/student-yes-green?style=flat)](https://google.com)
-## Your short description
+## Short description
 - 🔭 I’m currently not working, because i'm a student
 - 🌱 I’m currently learning - Flutter, VB.Net, React
 - 👯 I’m looking to collaborate with - Random
@@ -11,12 +11,12 @@
 <!-- Also feel free to update second URL to any URL -->
 [![Ivan's github stats](https://github-readme-stats.vercel.app/api?username=IvanRizkyanto&count_private=true&include_all_commits=true&theme=radical)](https://google.com)
 
-## &#x1f4c8; GitHub Stats
+## GitHub Stats
 <a href="https://github.com/IvanRizkyanto">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sProDev&hide=css&hide_border=true&layout=compact" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IvanRizkyanto&hide=css&hide_border=true&layout=compact" />
 </a>
 <a href="https://github.com/IvanRizkyanto">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=sProDev&show_icons=true&hide_border=true&hide=issues&count_private=true" alt="IvanRizkyanto's GitHub Stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=IvanRizkyanto&show_icons=true&hide_border=true&hide=issues&count_private=true" alt="IvanRizkyanto's GitHub Stats" />
 </a>
 
 ## Connect with me:
