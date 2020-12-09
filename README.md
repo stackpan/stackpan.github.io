@@ -1,16 +1,19 @@
-### Hi there 👋
+### Hi, I'm Ivan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+[![Website](https://img.shields.io/badge/student-yes-green?style=flat)](https://google.com)
+## Your short description
+- 🔭 I’m currently not working
+- 🌱 I’m currently learning - Flutter, VB.Net, React
+- 👯 I’m looking to collaborate with - Random
+- 💬 Don't ask me anything right now 
+- 🥅 2020 Goal - Covid-19 is End
+- ⚡ Fun fact - Too many
+<!-- Ivan means username in below README.md -->
+<!-- Also feel free to update second URL to any URL -->
+[![Ivan's github stats](https://github-readme-stats.vercel.app/api?username=IvanRizkyanto&count_private=true&include_all_commits=true&theme=radical)](https://google.com)
+## Connect with me:
+[<img align="left" alt="Ivan Rizkyanto | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
+[<img align="left" alt="Ivan Rizkya Susanto | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+<br />
 
-<!--
-**IvanRizkyanto/IvanRizkyanto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[facebook]: https://web.facebook.com/PanEpanJoul
+[linkedin]: https://www.linkedin.com/in/ivan-rizkya-susanto-54a6721b3/
