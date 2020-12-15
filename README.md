@@ -2,7 +2,7 @@
 [![Website](https://img.shields.io/badge/student-yes-green?style=flat)](https://google.com)
 ## Short description
 - 🔭 I’m currently not working, because i'm a student
-- 🌱 I’m currently learning - Flutter, VB.Net, React
+- 🌱 I’m currently learning - Flutter, Game Dev using Java
 - 👯 I’m looking to collaborate with - Random
 - 💬 Don't ask me anything right now 
 - 🥅 2020 Goal - Covid-19 is End
