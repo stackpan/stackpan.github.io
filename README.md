@@ -12,10 +12,10 @@
 
 ## GitHub Stats
 <a href="https://github.com/IvanRizkyanto">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IvanRizkyanto&hide=css&hide_border=true&layout=compact" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanefka&hide=css&hide_border=true&layout=compact" />
 </a>
 <a href="https://github.com/IvanRizkyanto">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=IvanRizkyanto&show_icons=true&hide_border=true&hide=issues&count_private=true" alt="IvanRizkyanto's GitHub Stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vanefka&show_icons=true&hide_border=true&hide=issues&count_private=true" alt="IvanRizkyanto's GitHub Stats" />
 </a>
 
 ## Connect with me:
