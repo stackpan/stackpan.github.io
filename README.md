@@ -11,6 +11,7 @@
 <!-- Also feel free to update second URL to any URL -->
 
 ## GitHub Stats
+
 <a href="https://github.com/vanefka">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanefka&hide=css&hide_border=true&layout=compact" />
 </a>
