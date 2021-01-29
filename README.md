@@ -11,11 +11,12 @@
 <!-- Also feel free to update second URL to any URL -->
 
 ## GitHub Stats
-<a href="https://github.com/IvanRizkyanto">
+
+<a href="https://github.com/vanefka">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanefka&hide=css&hide_border=true&layout=compact" />
 </a>
-<a href="https://github.com/IvanRizkyanto">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vanefka&show_icons=true&hide_border=true&hide=issues&count_private=true" alt="IvanRizkyanto's GitHub Stats" />
+<a href="https://github.com/vanefka">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vanefka&show_icons=true&hide_border=true&hide=issues&count_private=true" alt="Vanefka's GitHub Stats" />
 </a>
 
 ## Connect with me:
