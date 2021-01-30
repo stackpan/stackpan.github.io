@@ -6,7 +6,7 @@
 - 👯 I’m looking to collaborate with - Random
 - 💬 Don't ask me anything right now 
 - 🥅 2020 Goal - Covid-19 is End
-- 🥅 2020 - WHYYY THE PANDEMIC IS NOT OVER!!!!
+- 🥅 2021 - WHYYY THE PANDEMIC IS NOT OVER!!!!
 - ⚡ Fun fact - Too many
 <!-- Ivan means username in below README.md -->
 <!-- Also feel free to update second URL to any URL -->
