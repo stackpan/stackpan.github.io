@@ -2,7 +2,7 @@
 <!-- [![Website](https://img.shields.io/badge/student-yes-green?style=flat)](https://google.com) -->
 
 - I code as a hobby
-- 3+ years experience at programming
+- Start programming since 2019
 
 ## GitHub Stats
 
