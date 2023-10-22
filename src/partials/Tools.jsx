@@ -31,7 +31,7 @@ function Tools() {
     <article id="tools" className="bg-base-200 py-12 text-white">
       <div className="px-6 space-y-4 mx-auto w-full max-w-7xl">
         <section>
-          <h2 className="text-3xl font-bold mb-6 text-center">What can I do? 🤖</h2>
+          <h2 className="text-3xl font-bold mb-6 md:text-center">What can I do? 🤖</h2>
           <p className="lg:px-2">
             I build web applications for society.
             {' '}
