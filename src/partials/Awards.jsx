@@ -3,11 +3,11 @@ import React from 'react';
 function Awards() {
   return (
     <article id="about" className="bg-base-100 py-12 text-black">
-      <div className="px-4">
-        <h2 className="text-3xl font-bold mb-6">Awards 🏆</h2>
-        <p className="mb-4">I also have achievement(s) that make my parents proud!</p>
+      <div className="px-6 mx-auto w-full max-w-7xl">
+        <h2 className="text-3xl font-bold mb-6 md:text-center">Awards 🏆</h2>
+        <p className="mb-4 lg:px-2">I also have achievement(s) that make my parents proud!</p>
         <section className="mb-8">
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-4 lg:px-2">
             <li>
               <article className="p-4 rounded-md border-4 border-black space-y-2">
                 <header>

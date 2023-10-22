@@ -19,7 +19,7 @@ function App() {
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay" />
-        <ul className="menu p-4 w-80 min-h-full bg-base-200">
+        <ul className="menu p-4 w-80 min-h-full bg-secondary">
           <MenuItems />
         </ul>
       </div>
