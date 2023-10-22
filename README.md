@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Hi, I'm Ivan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 <!-- [![Website](https://img.shields.io/badge/student-yes-green?style=flat)](https://google.com) -->
 
@@ -21,13 +20,3 @@
 
 [facebook]: https://web.facebook.com/PanEpanJoul
 [linkedin]: https://www.linkedin.com/in/ivan-rizkya-susanto-54a6721b3/
-=======
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 8006d7e (initial commit)
