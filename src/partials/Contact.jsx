@@ -5,7 +5,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <article id="about" className="bg-neutral py-12 text-black">
+    <article id="contact" className="bg-neutral py-12 text-black">
       <div className="px-6 mx-auto w-full max-w-7xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center">Connect With Me 👥</h2>

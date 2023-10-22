@@ -17,7 +17,7 @@ function App() {
           <Footer />
         </div>
       </div>
-      <div className="drawer-side">
+      <div className="drawer-side z-20">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay" />
         <ul className="menu p-4 w-80 min-h-full bg-secondary">
           <MenuItems />

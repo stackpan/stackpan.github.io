@@ -8,7 +8,7 @@ import ppdbDesktopThumbnail from '../assets/img/ppdb-desktop-thumbnail.jpg';
 
 function Projects() {
   return (
-    <article id="about" className="bg-base-100 py-12 text-black">
+    <article id="projects" className="bg-base-100 py-12 text-black">
       <div className="px-6 mx-auto w-full max-w-7xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center">My Works 🏗️</h2>
@@ -146,9 +146,9 @@ function Projects() {
           </section>
           <section>
             <p className="mb-4 text-center">
-              Find out more on
+              Find more on
               {' '}
-              <a href="https://github.com/stackpan" className="text-white">
+              <a href="https://github.com/stackpan" className="text-primary">
                 my Github
                 {' '}
                 <SiGithub className="inline w-5" />
