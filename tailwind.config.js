@@ -17,11 +17,13 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: '#b8b8b8',
-          secondary: '#b8b8b8',
-          accent: '#b8b8b8',
-          neutral: '#ebebeb',
-          'base-100': '#ffffff',
+          primary: '#4C4C4C',
+          secondary: '#D9D9D9',
+          accent: '#4C4C4C',
+          neutral: '#C3C3C3',
+          'base-100': '#ACACAC',
+          'base-200': '#909090',
+          'base-300': '#747474',
           info: '#0000ff',
           success: '#008000',
           warning: '#a6a659',
