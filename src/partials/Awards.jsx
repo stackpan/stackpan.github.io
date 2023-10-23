@@ -3,7 +3,7 @@ import React from 'react';
 function Awards() {
   return (
     <article id="awards" className="bg-base-100 py-12 text-black">
-      <div className="px-6 mx-auto w-full max-w-7xl">
+      <div className="px-6 mx-auto w-full md:max-w-3xl lg:max-w-5xl">
         <h2 className="text-3xl font-bold mb-6 md:text-center">Awards 🏆</h2>
         <p className="mb-4 lg:px-2">I also have achievement(s) that make my parents proud!</p>
         <section className="mb-8">

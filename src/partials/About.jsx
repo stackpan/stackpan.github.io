@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <article id="about" className="bg-base-300 py-12 text-white">
-      <div className="px-6 mx-auto w-full max-w-7xl">
+      <div className="px-6 mx-auto w-full md:max-w-3xl lg:max-w-5xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center">Who Am I? 👀</h2>
           <p className="lg:px-2">

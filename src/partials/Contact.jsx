@@ -6,7 +6,7 @@ import React from 'react';
 function Contact() {
   return (
     <article id="contact" className="bg-neutral py-12 text-black">
-      <div className="px-6 mx-auto w-full max-w-7xl">
+      <div className="px-6 mx-auto w-full md:max-w-3xl lg:max-w-5xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center">Connect With Me 👥</h2>
           <div className="flex flex-col gap-2 lg:flex-row lg:flex-wrap md:gap-x-0">

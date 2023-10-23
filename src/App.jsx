@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div className="drawer font-mono">
+    <div className="drawer font-mono lg:text-lg">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         <Header />

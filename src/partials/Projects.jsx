@@ -9,7 +9,7 @@ import ppdbDesktopThumbnail from '../assets/img/ppdb-desktop-thumbnail.jpg';
 function Projects() {
   return (
     <article id="projects" className="bg-base-100 py-12 text-black">
-      <div className="px-6 mx-auto w-full max-w-7xl">
+      <div className="px-6 mx-auto w-full md:max-w-3xl lg:max-w-5xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center">My Works 🏗️</h2>
           <p className="mb-4 lg:px-2">Check out my project(s) for the sake of society:</p>

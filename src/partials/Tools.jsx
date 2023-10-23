@@ -29,7 +29,7 @@ import React from 'react';
 function Tools() {
   return (
     <article id="tools" className="bg-base-200 py-12 text-white">
-      <div className="px-6 space-y-4 mx-auto w-full max-w-7xl">
+      <div className="px-6 space-y-4 mx-auto w-full md:max-w-3xl lg:max-w-5xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center">What can I do? 🤖</h2>
           <p className="lg:px-2">
