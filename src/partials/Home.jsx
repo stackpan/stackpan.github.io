@@ -38,8 +38,8 @@ function Home() {
               repeat={Infinity}
             />
           </p>
-          <a href="#about" className="p-4 absolute bottom-10 md:left-1/2 md:-translate-x-1/2 animate-bounce">
-            <p>
+          <a href="#about" className="p-4 absolute bottom-10 md:left-1/2 md:-translate-x-1/2">
+            <p className="animate-bounce">
               <span className="uppercase">Scroll down</span>
               <ArrowLongDownIcon className="w-6 h-6 ml-4 inline-block" />
             </p>
