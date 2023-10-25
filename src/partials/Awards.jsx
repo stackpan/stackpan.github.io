@@ -19,7 +19,7 @@ function Awards() {
                   <p className="my-4">AyoPKL! is the 3rd Best Startup Project of 2020 KKSI created by a team of students of SMK Negeri 1 Pemalang</p>
                 </div>
                 <footer>
-                  <div className="flex justify-end">
+                  <div className="flex flex-col items-end justify-end md:flex-row">
                     <a href="https://youtu.be/n2-8Ir7p-p8?si=1jNECynK4lcT62Gh" className="btn btn-ghost hover:btn-link">
                       Documentation
                       {' '}
