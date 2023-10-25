@@ -1,4 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
+import { ArrowLongDownIcon } from '@heroicons/react/24/outline';
 import stackpanLogo from '../assets/img/stackpan-logo.svg';
 
 function Home() {
@@ -15,14 +18,30 @@ function Home() {
           </div>
           <p>
             <span className="inline-block w-full text-xl">My name is </span>
-            <span className="inline-block w-full text-4xl font-bold">Ivan Rizkya Susanto</span>
+            <TypeAnimation
+              preRenderFirstString
+              sequence={[
+                'Ivan',
+                3000,
+                'Ivanzkyanto',
+                3000,
+                'Ivan Rizkya',
+                3000,
+                'Ivan Rizkyanto',
+                3000,
+                'Ivan Rizkya Susanto',
+                5000,
+              ]}
+              wrapper="span"
+              speed={50}
+              className="inline-block w-full text-4xl font-bold"
+              repeat={Infinity}
+            />
           </p>
-          <a href="#about" className="p-4 absolute bottom-10 md:left-1/2 md:-translate-x-1/2">
+          <a href="#about" className="p-4 absolute bottom-10 md:left-1/2 md:-translate-x-1/2 animate-bounce">
             <p>
               <span className="uppercase">Scroll down</span>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 ml-4 inline-block">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-              </svg>
+              <ArrowLongDownIcon className="w-6 h-6 ml-4 inline-block" />
             </p>
           </a>
         </section>

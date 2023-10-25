@@ -1,4 +1,6 @@
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { ArrowTopRightOnSquareIcon, VideoCameraIcon } from '@heroicons/react/24/outline';
 
 function Awards() {
   return (
@@ -9,7 +11,7 @@ function Awards() {
         <section className="mb-8">
           <ul className="flex flex-col gap-4 lg:px-2">
             <li>
-              <article className="p-4 rounded-md border-4 border-black space-y-2">
+              <article className="p-4 rounded-md border-4 border-black space-y-2 group hover:bg-secondary transition cursor-pointer">
                 <header>
                   <h4 className="text-xl font-bold my-2">Top Startup 3 in KKSI 2020 - Smart Apps for School</h4>
                 </header>
@@ -18,8 +20,16 @@ function Awards() {
                 </div>
                 <footer>
                   <div className="flex justify-end">
-                    <a href="https://youtu.be/n2-8Ir7p-p8?si=1jNECynK4lcT62Gh" className="btn btn-active btn-link">Overview &gt;&gt;&gt;</a>
-                    <a href="https://drive.google.com/file/d/1qmEdw0MXsTt0u-fCg4XFDfR1AZCY5796/view?usp=share_link" className="btn btn-active btn-link">Check it out &gt;&gt;&gt;</a>
+                    <a href="https://youtu.be/n2-8Ir7p-p8?si=1jNECynK4lcT62Gh" className="btn btn-ghost hover:btn-link">
+                      Documentation
+                      {' '}
+                      <VideoCameraIcon className="w-5 h-5 inline-block" />
+                    </a>
+                    <a href="https://drive.google.com/file/d/1qmEdw0MXsTt0u-fCg4XFDfR1AZCY5796/view?usp=share_link" className="btn btn-ghost hover:btn-link">
+                      Check it out
+                      {' '}
+                      <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />
+                    </a>
                   </div>
                 </footer>
               </article>

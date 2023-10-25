@@ -44,7 +44,7 @@ function Tools() {
           <p className="mb-4 lg:px-2">Here, the tech stack and tools that I use:</p>
           <ul className="flex flex-col gap-4 lg:flex-row lg:flex-wrap lg:gap-x-0 lg:justify-center">
             <li className="lg:basis-1/2 lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full">
+              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
                 <header className="text-center">
                   <p className="font-bold">The Trilogy of Web</p>
                 </header>
@@ -73,7 +73,7 @@ function Tools() {
               </article>
             </li>
             <li className="lg:basis-1/2 lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full">
+              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
                 <header className="text-center">
                   <p className="font-bold">Popular Stuff</p>
                 </header>
@@ -126,7 +126,7 @@ function Tools() {
               </article>
             </li>
             <li className="lg:basis-1/2 lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full">
+              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
                 <header className="text-center">
                   <p className="font-bold">Databases</p>
                 </header>
@@ -161,7 +161,7 @@ function Tools() {
               </article>
             </li>
             <li className="lg:basis-1/2 lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full">
+              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
                 <header className="text-center">
                   <p className="font-bold">Infras</p>
                 </header>
@@ -196,7 +196,7 @@ function Tools() {
               </article>
             </li>
             <li className="lg:basis-full lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full">
+              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
                 <header className="text-center">
                   <p className="font-bold">Others</p>
                 </header>
