@@ -12,7 +12,7 @@ import ppdbDesktopThumbnail from '../assets/img/ppdb-desktop-thumbnail.jpg';
 
 function Projects() {
   return (
-    <article id="projects" className="bg-base-100 py-12 text-black">
+    <article id="projects" className="bg-base-200 py-12 text-black">
       <div className="px-6 mx-auto w-full md:max-w-3xl lg:max-w-5xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center">My Works 🏗️</h2>
@@ -20,13 +20,13 @@ function Projects() {
           <section className="mb-8">
             <ul className="flex flex-col lg:flex-row lg:flex-wrap gap-4 lg:gap-x-0">
               <li className="basis-1/2 lg:px-2">
-                <article className="p-4 rounded-md border-4 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-secondary transition cursor-pointer" onClick={() => window.open('https://github.com/stackpan/simpliz')}>
+                <article className="p-4 rounded-md border-2 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-accent hover:text-accent-content hover:border-accent active:bg-secondary active:border-secondary active:text-secondary-content transition cursor-pointer" onClick={() => window.open('https://github.com/stackpan/simpliz')}>
                   <div>
                     <header>
                       <h4 className="text-xl font-bold my-2">Simpliz</h4>
                     </header>
                     <div>
-                      <img src={simplizLogo} alt="Simpliz Screenshot" className="rounded border-2 border-black grayscale group-hover:border-secondary group-hover:grayscale-0 transition" />
+                      <img src={simplizLogo} alt="Simpliz Screenshot" className="rounded border-2 border-black grayscale group-hover:border-accent group-hover:grayscale-0 group-active:border-secondary transition" />
                       <p className="my-4">Simpliz is stands for simultaneously playable quiz. It is a quiz web app build by fullstack.</p>
                     </div>
                   </div>
@@ -42,7 +42,7 @@ function Projects() {
                       <div className="badge badge-outline">Web Socket</div>
                     </div>
                     <div className="flex justify-end">
-                      <button type="button" className="btn btn-ghost group-hover:btn-link">
+                      <button type="button" className="btn btn-ghost group-hover:btn-link group-hover:text-accent-content group-active:text-secondary-content">
                         Check it out
                         {' '}
                         <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />
@@ -52,13 +52,13 @@ function Projects() {
                 </article>
               </li>
               <li className="basis-1/2 lg:px-2">
-                <article className="p-4 rounded-md border-4 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-secondary transition cursor-pointer" onClick={() => window.open('https://github.com/stackpan/notes-server-laravel')}>
+                <article className="p-4 rounded-md border-2 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-accent hover:text-accent-content hover:border-accent active:bg-secondary active:border-secondary active:text-secondary-content transition cursor-pointer" onClick={() => window.open('https://github.com/stackpan/notes-server-laravel')}>
                   <div>
                     <header>
                       <h4 className="text-xl font-bold my-2">notes-server-laravel</h4>
                     </header>
                     <div>
-                      <img src={laravelNotesServerSwagger} alt="laravel-notes-server swagger screenshot" className="rounded border-2 border-black grayscale group-hover:border-secondary group-hover:grayscale-0 transition" />
+                      <img src={laravelNotesServerSwagger} alt="laravel-notes-server swagger screenshot" className="rounded border-2 border-black grayscale group-hover:border-accent group-hover:grayscale-0 group-active:border-secondary transition" />
                       <p className="my-4">Dicoding notes app backend server but powered by Laravel 10.</p>
                     </div>
                   </div>
@@ -71,7 +71,7 @@ function Projects() {
                       <div className="badge badge-outline">AMQP</div>
                     </div>
                     <div className="flex justify-end">
-                      <button type="button" className="btn btn-ghost group-hover:btn-link">
+                      <button type="button" className="btn btn-ghost group-hover:btn-link group-hover:text-accent-content group-active:text-secondary-content">
                         Check it out
                         {' '}
                         <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />
@@ -81,13 +81,13 @@ function Projects() {
                 </article>
               </li>
               <li className="basis-1/2 lg:px-2">
-                <article className="p-4 rounded-md border-4 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-secondary transition cursor-pointer" onClick={() => window.open('https://github.com/stackpan/qurancord')}>
+                <article className="p-4 rounded-md border-2 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-accent hover:text-accent-content hover:border-accent active:bg-secondary active:border-secondary active:text-secondary-content transition cursor-pointer" onClick={() => window.open('https://github.com/stackpan/qurancord')}>
                   <div>
                     <header>
                       <h4 className="text-xl font-bold my-2">Qurancord</h4>
                     </header>
                     <div>
-                      <img src={qurancordScreenshot} alt="Qurancord Demu Screenshot" className="rounded border-2 border-black grayscale group-hover:border-secondary group-hover:grayscale-0 transition" />
+                      <img src={qurancordScreenshot} alt="Qurancord Demu Screenshot" className="rounded border-2 border-black grayscale group-hover:border-accent group-hover:grayscale-0 group-active:border-secondary transition" />
                       <p className="my-4">Qurancord is a discord bot to search and get surah and/or ayah of Al-Quran from an internet API.</p>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ function Projects() {
                       <div className="badge badge-outline">JDA Discord</div>
                     </div>
                     <div className="flex justify-end">
-                      <button type="button" className="btn btn-ghost group-hover:btn-link">
+                      <button type="button" className="btn btn-ghost group-hover:btn-link group-hover:text-accent-content group-active:text-secondary-content">
                         Check it out
                         {' '}
                         <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />
@@ -113,13 +113,13 @@ function Projects() {
             <h3 className="mb-4 lg:px-2">Legacy project(s)</h3>
             <ul className="flex flex-col lg:flex-row lg:flex-wrap gap-4 lg:gap-x-0">
               <li className="lg:basis-1/2 lg:px-2">
-                <article className="p-4 rounded-md border-4 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-secondary transition cursor-pointer" onClick={() => window.open('https://youtu.be/Q4shdCUnWIo?si=Vxma9MqKt0DEqhXY')}>
+                <article className="p-4 rounded-md border-2 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-accent hover:text-accent-content hover:border-accent active:bg-secondary active:border-secondary active:text-secondary-content transition cursor-pointer" onClick={() => window.open('https://youtu.be/Q4shdCUnWIo?si=Vxma9MqKt0DEqhXY')}>
                   <div>
                     <header>
                       <h4 className="text-xl font-bold my-2">AyoPKL! Mobile</h4>
                     </header>
                     <div>
-                      <img src={ayopklUiScreenshot} alt="AyoPKL UI Screenshot" className="rounded border-2 border-black grayscale group-hover:border-secondary group-hover:grayscale-0 transition" />
+                      <img src={ayopklUiScreenshot} alt="AyoPKL UI Screenshot" className="rounded border-2 border-black grayscale group-hover:border-accent group-hover:grayscale-0 group-active:border-secondary transition" />
                       <p className="my-4">AyoPKL! is a website and mobile-based application that help students to find their appropriate place for the job training (in Bahasa = Praktik Kerja Lapangan). I have worked in the mobile client part.</p>
                     </div>
                   </div>
@@ -130,7 +130,7 @@ function Projects() {
                       <div className="badge badge-outline">Android</div>
                     </div>
                     <div className="flex justify-end">
-                      <button type="button" className="btn btn-ghost group-hover:btn-link">
+                      <button type="button" className="btn btn-ghost group-hover:btn-link group-hover:text-accent-content group-active:text-secondary-content">
                         Check it out
                         {' '}
                         <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />
@@ -140,13 +140,13 @@ function Projects() {
                 </article>
               </li>
               <li className="lg:basis-1/2 lg:px-2">
-                <article className="p-4 rounded-md border-4 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-secondary transition cursor-pointer" onClick={() => window.open('https://youtu.be/iQ4-v3ctTN0?si=3XhZZQqYSGUoaPlm')}>
+                <article className="p-4 rounded-md border-2 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-accent hover:text-accent-content hover:border-accent active:bg-secondary active:border-secondary active:text-secondary-content transition cursor-pointer" onClick={() => window.open('https://youtu.be/iQ4-v3ctTN0?si=3XhZZQqYSGUoaPlm')}>
                   <div>
                     <header>
                       <h4 className="text-xl font-bold my-2">PPDB Desktop</h4>
                     </header>
                     <div>
-                      <img src={ppdbDesktopThumbnail} alt="PPDB Desktop thumbnail" className="rounded border-2 border-black grayscale group-hover:border-secondary group-hover:grayscale-0 transition" />
+                      <img src={ppdbDesktopThumbnail} alt="PPDB Desktop thumbnail" className="rounded border-2 border-black grayscale group-hover:border-accent group-hover:grayscale-0 group-active:border-secondary transition" />
                       <p className="my-4">PPDB desktop application build from Java</p>
                     </div>
                   </div>
@@ -157,7 +157,7 @@ function Projects() {
                       <div className="badge badge-outline">MariaDB</div>
                     </div>
                     <div className="flex justify-end">
-                      <button type="button" className="btn btn-ghost group-hover:btn-link">
+                      <button type="button" className="btn btn-ghost group-hover:btn-link group-hover:text-accent-content group-active:text-secondary-content">
                         Check it out
                         {' '}
                         <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />
@@ -172,7 +172,7 @@ function Projects() {
             <p className="mb-4 text-center">
               Find more on
               {' '}
-              <a href="https://github.com/stackpan" className="text-primary hover:text-white" target="_blank" rel="noreferrer">
+              <a href="https://github.com/stackpan" className="text-primary active:text-secondary" target="_blank" rel="noreferrer">
                 my Github
                 {' '}
                 <SiGithub className="inline w-5" />

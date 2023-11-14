@@ -28,7 +28,7 @@ import React from 'react';
 
 function Tools() {
   return (
-    <article id="tools" className="bg-base-200 py-12 text-white">
+    <article id="tools" className="bg-base-300 py-12 text-base-content">
       <div className="px-6 space-y-4 mx-auto w-full md:max-w-3xl lg:max-w-5xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center">What can I do? 🤖</h2>
@@ -44,7 +44,7 @@ function Tools() {
           <p className="mb-4 lg:px-2">Here, the tech stack and tools that I use:</p>
           <ul className="flex flex-col gap-4 lg:flex-row lg:flex-wrap lg:gap-x-0 lg:justify-center">
             <li className="lg:basis-1/2 lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
+              <article className="p-4 rounded-md border-base-content border-2 space-y-4 lg:h-full hover:border-accent hover:bg-accent hover:text-accent-content transition">
                 <header className="text-center">
                   <p className="font-bold">The Trilogy of Web</p>
                 </header>
@@ -73,7 +73,7 @@ function Tools() {
               </article>
             </li>
             <li className="lg:basis-1/2 lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
+              <article className="p-4 rounded-md border-base-content border-2 space-y-4 lg:h-full hover:border-accent hover:bg-accent hover:text-accent-content transition">
                 <header className="text-center">
                   <p className="font-bold">Popular Stuff</p>
                 </header>
@@ -126,7 +126,7 @@ function Tools() {
               </article>
             </li>
             <li className="lg:basis-1/2 lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
+              <article className="p-4 rounded-md border-base-content border-2 space-y-4 lg:h-full hover:border-accent hover:bg-accent hover:text-accent-content transition">
                 <header className="text-center">
                   <p className="font-bold">Databases</p>
                 </header>
@@ -161,7 +161,7 @@ function Tools() {
               </article>
             </li>
             <li className="lg:basis-1/2 lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
+              <article className="p-4 rounded-md border-base-content border-2 space-y-4 lg:h-full hover:border-accent hover:bg-accent hover:text-accent-content transition">
                 <header className="text-center">
                   <p className="font-bold">Infras</p>
                 </header>
@@ -196,7 +196,7 @@ function Tools() {
               </article>
             </li>
             <li className="lg:basis-full lg:px-2">
-              <article className="p-4 rounded-md border-4 space-y-4 lg:h-full hover:bg-secondary hover:border-secondary hover:text-primary transition">
+              <article className="p-4 rounded-md border-base-content border-2 space-y-4 lg:h-full hover:border-accent hover:bg-accent hover:text-accent-content transition">
                 <header className="text-center">
                   <p className="font-bold">Others</p>
                 </header>

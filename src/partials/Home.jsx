@@ -6,7 +6,7 @@ import stackpanLogo from '../assets/img/stackpan-logo.svg';
 
 function Home() {
   return (
-    <article id="home" className="bg-neutral">
+    <article id="home" className="bg-base-100">
       <div className="px-6">
         <section className="lg:px-2 min-h-screen flex flex-col gap-8 justify-center mx-auto w-full max-w-7xl relative">
           <h1>

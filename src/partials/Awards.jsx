@@ -11,7 +11,7 @@ function Awards() {
         <section className="mb-8">
           <ul className="flex flex-col gap-4 lg:px-2">
             <li>
-              <article className="p-4 rounded-md border-4 border-black space-y-2 group hover:bg-secondary transition cursor-pointer">
+              <article className="p-4 rounded-md border-2 border-black space-y-2 group hover:bg-accent hover:text-accent-content hover:border-accent transition cursor-pointer">
                 <header>
                   <h4 className="text-xl font-bold my-2">Top Startup 3 in KKSI 2020 - Smart Apps for School</h4>
                 </header>
@@ -20,12 +20,12 @@ function Awards() {
                 </div>
                 <footer>
                   <div className="flex flex-col items-end justify-end md:flex-row">
-                    <a href="https://youtu.be/n2-8Ir7p-p8?si=1jNECynK4lcT62Gh" className="btn btn-ghost hover:btn-link">
+                    <a href="https://youtu.be/n2-8Ir7p-p8?si=1jNECynK4lcT62Gh" className="btn btn-ghost hover:btn-link hover:text-accent-content active:text-secondary">
                       Documentation
                       {' '}
                       <VideoCameraIcon className="w-5 h-5 inline-block" />
                     </a>
-                    <a href="https://drive.google.com/file/d/1qmEdw0MXsTt0u-fCg4XFDfR1AZCY5796/view?usp=share_link" className="btn btn-ghost hover:btn-link">
+                    <a href="https://drive.google.com/file/d/1qmEdw0MXsTt0u-fCg4XFDfR1AZCY5796/view?usp=share_link" className="btn btn-ghost hover:btn-link hover:text-accent-content active:text-secondary">
                       Check it out
                       {' '}
                       <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />
