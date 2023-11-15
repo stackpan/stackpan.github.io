@@ -2,7 +2,7 @@ const projects = [
   {
     name: 'Simpliz',
     description: 'Simpliz is stands for simultaneously playable quiz. It is a quiz web app build by fullstack.',
-    imageUrl: '/src/assets/img/simpliz-logo.png',
+    imageUrl: '/img/simpliz-logo.png',
     imageAlt: 'Simpliz Screenshot',
     tags: [
       'Laravel',
@@ -20,7 +20,7 @@ const projects = [
   {
     name: 'notes-server-laravel',
     description: 'Dicoding notes app backend server but powered by Laravel 10.',
-    imageUrl: '/src/assets/img/laravel-notes-server-swagger.png',
+    imageUrl: '/img/laravel-notes-server-swagger.png',
     imageAlt: 'laravel-notes-server swagger screenshot',
     tags: [
       'Laravel',
@@ -35,7 +35,7 @@ const projects = [
   {
     name: 'Qurancord',
     description: 'Qurancord is a discord bot to search and get surah and/or ayah of Al-Quran from an internet API.',
-    imageUrl: '/src/assets/img/qurancord-screenshot.png',
+    imageUrl: '/img/qurancord-screenshot.png',
     imageAlt: 'Qurancord Demo Screenshot',
     tags: [
       'Java',
@@ -48,7 +48,7 @@ const projects = [
   {
     name: 'AyoPKL! Mobile',
     description: 'AyoPKL! is a website and mobile-based application that help students to find their appropriate place for the job training (in Bahasa = Praktik Kerja Lapangan). I have worked in the mobile client part.',
-    imageUrl: '/src/assets/img/ayopkl-ui-screenshot.png',
+    imageUrl: '/img/ayopkl-ui-screenshot.png',
     imageAlt: 'AyoPKL UI Screenshot',
     tags: [
       'NodeJS',
@@ -61,7 +61,7 @@ const projects = [
   {
     name: 'PPDB Desktop',
     description: 'PPDB desktop application build from Java.',
-    imageUrl: '/src/assets/img/ppdb-desktop-thumbnail.jpg',
+    imageUrl: '/img/ppdb-desktop-thumbnail.jpg',
     imageAlt: 'PPDB Desktop thumbnail',
     tags: [
       'Java',
