@@ -1,7 +1,6 @@
-import {
-  SiFacebook, SiGithub, SiGmail, SiLinkedin,
-} from '@icons-pack/react-simple-icons';
 import React from 'react';
+import contacts from '../data/contactData';
+import ContactButton from '../components/ContactButton';
 
 function Contact() {
   return (
@@ -10,30 +9,15 @@ function Contact() {
         <section>
           <h2 className="text-3xl font-bold mb-6 md:text-center md:px-2">Connect With Me 👥</h2>
           <div className="flex flex-col gap-2 lg:flex-row lg:flex-wrap md:gap-x-0">
-            <div className="lg:basis-1/2 md:px-2">
-              <a href="mailto:ivanrizqy.ir@gmail.com" className="btn btn-primary btn-block normal-case hover:bg-accent hover:border-accent active:bg-secondary active:border-secondary" target="_blank" rel="noreferrer">
-                <SiGmail />
-                <span>ivanrizqy.ir@gmail.com</span>
-              </a>
-            </div>
-            <div className="lg:basis-1/2 md:px-2">
-              <a href="https://github.com/stackpan" className="btn btn-primary btn-block normal-case hover:bg-accent hover:border-accent active:bg-secondary active:border-secondary" target="_blank" rel="noreferrer">
-                <SiGithub />
-                <span>stackpan</span>
-              </a>
-            </div>
-            <div className="lg:basis-1/2 md:px-2">
-              <a href="https://www.linkedin.com/in/ivan-rizkya-susanto-54a6721b3" className="btn btn-primary btn-block normal-case hover:bg-accent hover:border-accent active:bg-secondary active:border-secondary" target="_blank" rel="noreferrer">
-                <SiLinkedin />
-                <span>Ivan Rizkya Susanto</span>
-              </a>
-            </div>
-            <div className="lg:basis-1/2 md:px-2">
-              <a href="https://web.facebook.com/PanEpanJoul" className="btn btn-primary btn-block normal-case hover:bg-accent hover:border-accent active:bg-secondary active:border-secondary" target="_blank" rel="noreferrer">
-                <SiFacebook />
-                <span>Ivan Rizkyanto</span>
-              </a>
-            </div>
+            {contacts.map((contact) => (
+              <div key={contact.label} className="lg:basis-1/2 md:px-2">
+                <ContactButton
+                  url={contact.url}
+                  label={contact.label}
+                  Icon={contact.icon}
+                />
+              </div>
+            ))}
           </div>
         </section>
       </div>
