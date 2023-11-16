@@ -17,7 +17,7 @@ function Home() {
             <img src={stackpanLogo} alt="Stackpan Logo" className="w-full max-w-lg lg:absolute" />
           </div>
           <p>
-            <span className="inline-block w-full text-xl">My name is </span>
+            <span className="inline-block w-full text-xl">also known as </span>
             <TypeAnimation
               preRenderFirstString
               sequence={[

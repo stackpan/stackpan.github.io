@@ -19,7 +19,7 @@ function Tools() {
           </p>
         </section>
         <section>
-          <p className="mb-4 md:px-2">Here, the tech stack and tools that I use:</p>
+          <p className="mb-4 md:px-2">These are the tech stack(s) and tools I use to build awesome things:</p>
           <ul className="flex flex-col gap-4 md:flex-row md:flex-wrap md:gap-x-0 lg:justify-center">
             <li className="md:basis-1/2 md:px-2">
               <ToolCategoryCard

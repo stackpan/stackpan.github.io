@@ -15,7 +15,7 @@ function Projects() {
       <div className="px-4 mx-auto w-full md:max-w-3xl lg:max-w-6xl">
         <section>
           <h2 className="text-3xl font-bold mb-6 md:px-2 md:text-center">My Works 🏗️</h2>
-          <p className="mb-4 md:px-2">Check out my project(s) for the sake of society:</p>
+          <p className="mb-4 md:px-2">These are my latest project(s) for the sake of society:</p>
           <section className="mb-8">
             <ul className="flex flex-col md:flex-row md:flex-wrap gap-4 md:gap-x-0">
               {recentProjects.map((project) => (
