@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
-import MenuItems from './components/MenuItems';
+import MenuItemList from './components/MenuItemList';
 
 function Header() {
   return (
@@ -12,7 +12,7 @@ function Header() {
       </div>
       <div className="flex-none hidden lg:block">
         <ul className="menu menu-horizontal">
-          <MenuItems />
+          <MenuItemList />
         </ul>
       </div>
     </header>

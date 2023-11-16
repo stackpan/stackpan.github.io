@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MenuItems() {
+function MenuItemList() {
   const listAClasses = 'hover:bg-accent hover:text-accent-content active:bg-secondary active:text-secondary-content';
 
   return (
@@ -15,4 +15,4 @@ function MenuItems() {
   );
 }
 
-export default MenuItems;
+export default MenuItemList;

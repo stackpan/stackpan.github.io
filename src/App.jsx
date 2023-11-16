@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import './assets/styles.css';
-import MenuItems from './components/MenuItems';
+import MenuItemList from './components/MenuItemList';
 import Header from './Header';
 import MainSection from './MainSection';
 import Footer from './Footer';
@@ -20,7 +20,7 @@ function App() {
       <div className="drawer-side z-20">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay" />
         <ul className="menu p-4 w-80 min-h-full bg-base-100">
-          <MenuItems />
+          <MenuItemList />
         </ul>
       </div>
     </div>
