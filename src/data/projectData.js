@@ -3,7 +3,7 @@ const projects = [
     name: 'Simpliz',
     description: 'Simpliz is stands for simultaneously playable quiz. It is a quiz web app build by fullstack.',
     imageUrl: '/img/simpliz-logo.png',
-    imageAlt: 'Simpliz Screenshot',
+    imageAlt: 'Simpliz logo',
     tags: [
       'Laravel',
       'Blade',
@@ -36,7 +36,7 @@ const projects = [
     name: 'Qurancord',
     description: 'Qurancord is a discord bot to search and get surah and/or ayah of Al-Quran from an internet API.',
     imageUrl: '/img/qurancord-screenshot.png',
-    imageAlt: 'Qurancord Demo Screenshot',
+    imageAlt: 'Qurancord demo screenshot',
     tags: [
       'Java',
       'Apache Maven',
@@ -46,10 +46,22 @@ const projects = [
     legacy: false,
   },
   {
+    name: 'akibot',
+    description: 'Simple akinator games discord bot.',
+    imageUrl: 'https://user-images.githubusercontent.com/55195033/283350151-8ce28a0e-902a-48d8-9757-a51461e2d9fc.png',
+    imageAlt: 'akibot demo screenshot',
+    tags: [
+      'NodeJS',
+      'Discord.js',
+    ],
+    url: 'https://github.com/stackpan/akibot',
+    legacy: false,
+  },
+  {
     name: 'AyoPKL! Mobile',
     description: 'AyoPKL! is a website and mobile-based application that help students to find their appropriate place for the job training (in Bahasa = Praktik Kerja Lapangan). I have worked in the mobile client part.',
     imageUrl: '/img/ayopkl-ui-screenshot.png',
-    imageAlt: 'AyoPKL UI Screenshot',
+    imageAlt: 'AyoPKL! Mobile UI screenshot',
     tags: [
       'NodeJS',
       'Ionic',
