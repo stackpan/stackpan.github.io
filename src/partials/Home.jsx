@@ -7,8 +7,8 @@ import stackpanLogo from '../assets/img/stackpan-logo.svg';
 function Home() {
   return (
     <article id="home" className="bg-base-100">
-      <div className="px-6">
-        <section className="lg:px-2 min-h-screen flex flex-col gap-8 justify-center mx-auto w-full max-w-7xl relative">
+      <div className="px-4">
+        <section className="md:px-2 min-h-screen flex flex-col gap-8 justify-center mx-auto w-full max-w-7xl relative">
           <h1>
             <span className="inline-block w-full text-xl">Hi, I&apos;m </span>
             <span className="inline-block w-full text-5xl font-bold">Stackpan</span>

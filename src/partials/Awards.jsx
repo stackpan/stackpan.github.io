@@ -5,12 +5,12 @@ import { ArrowTopRightOnSquareIcon, VideoCameraIcon } from '@heroicons/react/24/
 function Awards() {
   return (
     <article id="awards" className="bg-base-100 py-12 text-black">
-      <div className="px-6 mx-auto w-full md:max-w-3xl lg:max-w-5xl">
-        <h2 className="text-3xl font-bold mb-6 md:text-center">Awards 🏆</h2>
-        <p className="mb-4 lg:px-2">I also have achievement(s) that make my parents proud!</p>
+      <div className="px-4 mx-auto w-full md:max-w-3xl lg:max-w-6xl">
+        <h2 className="text-3xl font-bold mb-6 md:px-2 md:text-center">Awards 🏆</h2>
+        <p className="mb-4 md:px-2">I also have achievement(s) that make my parents proud!</p>
         <section className="mb-8">
-          <ul className="flex flex-col gap-4 lg:px-2">
-            <li>
+          <ul className="flex flex-col lg:flex-row lg:flex-wrap gap-4 lg:gap-x-0">
+            <li className="md:px-2 lg:basis-1/2">
               <article className="p-4 rounded-md border-2 border-black space-y-2 group hover:bg-accent hover:text-accent-content hover:border-accent transition cursor-pointer">
                 <header>
                   <h4 className="text-xl font-bold my-2">Top Startup 3 in KKSI 2020 - Smart Apps for School</h4>
