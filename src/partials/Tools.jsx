@@ -49,6 +49,7 @@ function Tools() {
               <ToolCategoryCard
                 name="Others"
                 tools={filterTools(4)}
+                wide
               />
             </li>
           </ul>
