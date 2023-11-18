@@ -1,7 +1,7 @@
 import React from 'react';
 
 function MenuItemList() {
-  const listAClasses = 'hover:bg-accent hover:text-accent-content active:bg-secondary active:text-secondary-content';
+  const listAClasses = 'rounded hover:bg-secondary hover:text-secondary-content active:!bg-accent active:!text-accent-content';
 
   return (
     <>

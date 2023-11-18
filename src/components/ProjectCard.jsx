@@ -9,13 +9,13 @@ function ProjectCard({
   name, description, imageUrl, imageAlt, tags, url,
 }) {
   return (
-    <article className="p-4 rounded-md border-2 border-black space-y-2 h-full flex flex-col justify-between group hover:bg-accent hover:text-accent-content hover:border-accent active:bg-secondary active:border-secondary active:text-secondary-content transition cursor-pointer" onClick={() => window.open(url)}>
+    <article className="p-4 rounded-md border-2 border-black space-y-2 h-full flex flex-col justify-between group active:bg-secondary active:border-secondary active:text-secondary-content transition cursor-pointer" onClick={() => window.open(url)}>
       <div>
         <header>
-          <h4 className="text-xl font-bold my-2">{name}</h4>
+          <h4 className="text-xl font-bold my-2 decoration-2 decoration-secondary group-hover:underline">{name}</h4>
         </header>
         <div>
-          <img src={imageUrl} alt={imageAlt} className="rounded border-2 border-black grayscale group-hover:border-accent group-hover:grayscale-0 group-active:border-secondary transition" />
+          <img src={imageUrl} alt={imageAlt} className="rounded border-2 border-black grayscale group-hover:grayscale-0 group-active:border-secondary transition" />
           <p className="my-4">{description}</p>
         </div>
       </div>
@@ -24,7 +24,7 @@ function ProjectCard({
           {tags.map((tag) => <div key={tag} className="badge badge-outline">{tag}</div>)}
         </div>
         <div className="flex justify-end">
-          <button type="button" className="btn btn-ghost group-hover:btn-link group-hover:text-accent-content group-active:text-secondary-content">
+          <button type="button" className="btn btn-ghost group-hover:btn-link group-active:text-secondary-content hover:decoration-secondary">
             Check it out
             {' '}
             <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />

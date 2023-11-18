@@ -2,7 +2,7 @@ const projects = [
   {
     name: 'Simpliz',
     description: 'Simpliz is stands for simultaneously playable quiz. It is a quiz web app build by fullstack.',
-    imageUrl: '/img/simpliz-logo.png',
+    imageUrl: 'https://github.com/stackpan/simpliz/raw/main/docs/assets/readme/img/answering_question_page_screenshot.png',
     imageAlt: 'Simpliz logo',
     tags: [
       'Laravel',

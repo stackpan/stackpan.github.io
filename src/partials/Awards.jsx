@@ -6,7 +6,11 @@ function Awards() {
   return (
     <article id="awards" className="bg-base-100 py-12 text-black">
       <div className="px-4 mx-auto w-full md:max-w-3xl lg:max-w-6xl">
-        <h2 className="text-3xl font-bold mb-6 md:px-2 md:text-center">Awards 🏆</h2>
+        <h2 className="text-3xl font-bold mb-6 md:px-2 md:text-center">
+          <span className="decoration-2 decoration-secondary hover:underline">Awards</span>
+          {' '}
+          🏆
+        </h2>
         <p className="mb-4 md:px-2">I also have achievement(s) that make my parents proud!</p>
         <section className="mb-8">
           <ul className="flex flex-col lg:flex-row lg:flex-wrap gap-4 lg:gap-x-0">

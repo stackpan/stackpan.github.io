@@ -11,7 +11,7 @@ function Home() {
         <section className="md:px-2 min-h-screen flex flex-col gap-8 justify-center mx-auto w-full max-w-7xl relative">
           <h1>
             <span className="inline-block w-full text-xl">Hi, I&apos;m </span>
-            <span className="inline-block w-full text-5xl font-bold">Stackpan</span>
+            <span className="inline-block w-full text-5xl font-bold decoration-4 decoration-secondary hover:underline">Stackpan</span>
           </h1>
           <div className="flex justify-end lg:-order-1 lg:-mt-48">
             <img src={stackpanLogo} alt="Stackpan Logo" className="w-full max-w-lg lg:absolute" />
@@ -34,11 +34,11 @@ function Home() {
               ]}
               wrapper="span"
               speed={50}
-              className="inline-block w-full text-4xl font-bold"
+              className="inline-block w-full text-4xl font-bold decoration-2 decoration-secondary hover:underline"
               repeat={Infinity}
             />
           </p>
-          <a href="#about" className="p-0 absolute bottom-10 md:p-4 md:left-1/2 md:-translate-x-1/2">
+          <a href="#about" className="p-0 absolute bottom-10 md:p-4 md:left-1/2 md:-translate-x-1/2 hover:text-secondary active:text-accent">
             <p className="animate-bounce">
               <span className="uppercase">Scroll down</span>
               <ArrowLongDownIcon className="w-6 h-6 ml-4 inline-block" />

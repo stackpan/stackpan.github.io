@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 // eslint-disable-next-line react/prop-types
 function ContactButton({ url, label, Icon }) {
   return (
-    <a href={url} className="btn btn-primary btn-block normal-case hover:bg-accent hover:border-accent active:bg-secondary active:border-secondary" target="_blank" rel="noreferrer">
+    <a href={url} className="btn btn-primary btn-outline btn-block normal-case rounded" target="_blank" rel="noreferrer">
       <Icon />
       <span>{label}</span>
     </a>

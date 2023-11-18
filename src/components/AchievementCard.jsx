@@ -7,21 +7,21 @@ function AchievementCard({
   name, description, documentationUrl, url,
 }) {
   return (
-    <article className="p-4 rounded-md border-2 border-black space-y-2 group hover:bg-accent hover:text-accent-content hover:border-accent transition cursor-pointer">
+    <article className="p-4 rounded-md border-2 border-black space-y-2 group transition cursor-pointer">
       <header>
-        <h4 className="text-xl font-bold my-2">{ name }</h4>
+        <h4 className="text-xl font-bold my-2 decoration-2 decoration-secondary group-hover:underline">{ name }</h4>
       </header>
       <div>
         <p className="my-4">{ description }</p>
       </div>
       <footer>
         <div className="flex flex-col items-end justify-end md:flex-row">
-          <a href={documentationUrl} className="btn btn-ghost hover:btn-link hover:text-accent-content active:text-secondary">
+          <a href={documentationUrl} className="btn btn-ghost decoration-secondary hover:btn-link active:text-secondary">
             Documentation
             {' '}
             <VideoCameraIcon className="w-5 h-5 inline-block" />
           </a>
-          <a href={url} className="btn btn-ghost hover:btn-link hover:text-accent-content active:text-secondary">
+          <a href={url} className="btn btn-ghost decoration-secondary hover:btn-link active:text-secondary">
             Check it out
             {' '}
             <ArrowTopRightOnSquareIcon className="w-5 h-5 inline-block" />
