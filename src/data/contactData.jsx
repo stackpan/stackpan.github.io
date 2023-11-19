@@ -1,5 +1,5 @@
 import {
-  SiFacebook, SiGithub, SiGmail, SiLinkedin,
+  SiFacebook, SiGithub, SiGmail, SiLinkedin, SiMastodon,
 } from '@icons-pack/react-simple-icons';
 import React from 'react';
 
@@ -15,7 +15,7 @@ const contacts = [
     icon: () => <SiGithub />,
   },
   {
-    url: 'https://www.linkedin.com/in/ivan-rizkya-susanto-54a6721b3',
+    url: 'https://www.linkedin.com/in/ivanzkyanto',
     label: 'Ivan Rizkya Susanto',
     icon: () => <SiLinkedin />,
   },
@@ -23,6 +23,11 @@ const contacts = [
     url: 'https://web.facebook.com/PanEpanJoul',
     label: 'Ivan Rizkyanto',
     icon: () => <SiFacebook />,
+  },
+  {
+    url: 'https://mstdn.id/@stackpan',
+    label: '@stackpan',
+    icon: () => <SiMastodon />,
   },
 ];
 
