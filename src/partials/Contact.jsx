@@ -12,13 +12,14 @@ function Contact() {
             {' '}
             👥
           </h2>
-          <div className="flex flex-col gap-2 lg:flex-row lg:flex-wrap md:gap-x-0">
+          <div className="flex flex-col justify-center gap-2 lg:flex-row lg:flex-wrap md:gap-x-0">
             {contacts.map((contact) => (
               <div key={contact.label} className="lg:basis-1/2 md:px-2">
                 <ContactButton
                   url={contact.url}
                   label={contact.label}
                   Icon={contact.icon}
+                  rel={contact.rel}
                 />
               </div>
             ))}

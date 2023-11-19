@@ -27,6 +27,7 @@ const contacts = [
   {
     url: 'https://mstdn.id/@stackpan',
     label: '@stackpan',
+    rel: 'me',
     icon: () => <SiMastodon />,
   },
 ];
