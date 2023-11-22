@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  SiApache,
   SiApachemaven,
   SiCss3,
   SiDocker,
@@ -11,9 +10,7 @@ import {
   SiJavascript,
   SiLaravel,
   SiLinux,
-  SiMariadb,
   SiMysql,
-  SiNginx,
   SiNodedotjs,
   SiNpm,
   SiOpenapiinitiative,
@@ -82,11 +79,6 @@ const tools = [
   },
   {
     category: 2,
-    name: 'MariaDB',
-    icon: ({ className }) => <SiMariadb className={className} />,
-  },
-  {
-    category: 2,
     name: 'PostgreSQL',
     icon: ({ className }) => <SiPostgresql className={className} />,
   },
@@ -104,16 +96,6 @@ const tools = [
     category: 3,
     name: 'Docker',
     icon: ({ className }) => <SiDocker className={className} />,
-  },
-  {
-    category: 3,
-    name: 'Apache',
-    icon: ({ className }) => <SiApache className={className} />,
-  },
-  {
-    category: 3,
-    name: 'Nginx',
-    icon: ({ className }) => <SiNginx className={className} />,
   },
   {
     category: 4,
