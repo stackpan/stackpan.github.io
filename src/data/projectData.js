@@ -1,5 +1,22 @@
 const projects = [
   {
+    name: 'Stageboard',
+    description: 'JIT recorder and task management app just like kanban board.',
+    imageUrl: 'https://private-user-images.githubusercontent.com/55195033/287421726-f685f0db-d2d2-4801-90c1-9d841016e6ba.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE0OTM0NTcsIm5iZiI6MTcwMTQ5MzE1NywicGF0aCI6Ii81NTE5NTAzMy8yODc0MjE3MjYtZjY4NWYwZGItZDJkMi00ODAxLTkwYzEtOWQ4NDEwMTZlNmJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjAyVDA0NTkxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNiZGIxNTBmMmNiN2U0MWM3YjkxN2FiMjQyZGVlNWNjMjlhM2EzMDUwMWE0YjUyZDIzNzE0MjZkZjZkZDdkN2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0._VJrqzVoCMakls4yiWEO8cvsimJEpgLnytd5WU4FM_Q',
+    imageAlt: 'Stageboard screenshot preview',
+    tags: [
+      'Laravel',
+      'Inertia.js',
+      'ReactJS',
+      'Tailwindcss',
+      'DaisyUI',
+      'Typescript',
+      'MySQL',
+    ],
+    url: 'https://github.com/stackpan/stageboard',
+    legacy: false,
+  },
+  {
     name: 'Simpliz',
     description: 'Simpliz is stands for simultaneously playable quiz. It is a quiz web app build by fullstack.',
     imageUrl: 'https://github.com/stackpan/simpliz/raw/main/docs/assets/readme/img/answering_question_page_screenshot.png',

@@ -18,6 +18,7 @@ import {
   SiReact,
   SiRedis,
   SiTailwindcss,
+  SiTypescript,
   SiUml,
 } from '@icons-pack/react-simple-icons';
 
@@ -71,6 +72,11 @@ const tools = [
     category: 1,
     name: 'TailwindCSS',
     icon: ({ className }) => <SiTailwindcss className={className} />,
+  },
+  {
+    category: 1,
+    name: 'Typescript',
+    icon: ({ className }) => <SiTypescript className={className} />,
   },
   {
     category: 2,
