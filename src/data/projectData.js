@@ -2,7 +2,7 @@ const projects = [
   {
     name: 'Stageboard',
     description: 'JIT recorder and task management app just like kanban board.',
-    imageUrl: 'https://github.com/stackpan/stageboard/blob/main/docs/img/screenshot-preview.jpeg',
+    imageUrl: 'https://raw.githubusercontent.com/stackpan/stageboard/main/docs/img/screenshot-preview.jpeg',
     imageAlt: 'Stageboard screenshot preview',
     tags: [
       'Laravel',
