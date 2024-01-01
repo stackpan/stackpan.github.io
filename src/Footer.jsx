@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <article id="about" className="bg-primary py-12 text-primary-content">
         <div className="px-4">
-          <p className="text-center md:px-2">Ivan Rizkya Susanto © 2023</p>
+          <p className="text-center md:px-2">Ivan Rizkya Susanto © 2024</p>
         </div>
       </article>
     </footer>
