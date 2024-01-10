@@ -1,5 +1,23 @@
 const projects = [
   {
+    name: 'Senopi',
+    description: 'Spring Empowered Notes app API',
+    imageUrl: '/img/senopi-redocly.png',
+    imageAlt: 'Stageboard screenshot preview',
+    tags: [
+      'Java',
+      'Spring Boot',
+      'Maven',
+      'PostgreSQL',
+      'Spring Data JPA',
+      'JWT',
+      'RabbitMQ',
+      'Project Lombok'
+    ],
+    url: 'https://github.com/stackpan/senopi',
+    legacy: false,
+  },
+  {
     name: 'Stageboard',
     description: 'JIT recorder and task management app just like kanban board.',
     imageUrl: 'https://raw.githubusercontent.com/stackpan/stageboard/main/docs/img/board-page_screenshot.png',
@@ -9,9 +27,9 @@ const projects = [
       'Inertia.js',
       'ReactJS',
       'Tailwindcss',
-      'DaisyUI',
       'Typescript',
       'MySQL',
+      'WebSocket'
     ],
     url: 'https://github.com/stackpan/stageboard',
     legacy: false,
@@ -25,11 +43,10 @@ const projects = [
       'Laravel',
       'Blade',
       'Tailwindcss',
-      'DaisyUI',
       'Livewire',
       'PostgreSQL',
       'Redis',
-      'Web Socket',
+      'WebSocket',
     ],
     url: 'https://github.com/stackpan/simpliz',
     legacy: false,
