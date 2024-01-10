@@ -93,7 +93,7 @@ const projects = [
   },
   {
     name: 'AyoPKL! Mobile',
-    description: 'AyoPKL! is a website and mobile-based application that help students to find their appropriate place for the job training (in Bahasa = Praktik Kerja Lapangan). I have worked in the mobile client part.',
+    description: 'AyoPKL! is a website and mobile-based application that help students to find their appropriate place for the job training (in Bahasa = Praktik Kerja Lapangan). KKSI 2020 project. I worked on the mobile client part.',
     imageUrl: '/img/ayopkl-ui-screenshot.png',
     imageAlt: 'AyoPKL! Mobile UI screenshot',
     tags: [
@@ -106,7 +106,7 @@ const projects = [
   },
   {
     name: 'PPDB Desktop',
-    description: 'PPDB desktop application build from Java.',
+    description: 'PPDB desktop application build from Java. My final assignment at SMK for programming class',
     imageUrl: '/img/ppdb-desktop-thumbnail.jpg',
     imageAlt: 'PPDB Desktop thumbnail',
     tags: [

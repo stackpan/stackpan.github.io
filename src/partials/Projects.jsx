@@ -19,7 +19,7 @@ function Projects() {
             {' '}
             🏗️
           </h2>
-          <p className="mb-4 md:px-2">These are my latest project(s) for society:</p>
+          <p className="mb-4 md:px-2">These are my latest project(s) that I built for society:</p>
           <section className="mb-8">
             <ul className="flex flex-col md:flex-row md:flex-wrap gap-4 md:gap-x-0">
               {recentProjects.map((project) => (
