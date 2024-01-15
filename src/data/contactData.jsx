@@ -5,8 +5,8 @@ import React from 'react';
 
 const contacts = [
   {
-    url: 'mailto:ivanrizqy.ir@gmail.com',
-    label: 'ivanrizqy.ir@gmail.com',
+    url: 'mailto:ivanzkyanto@outlook.com',
+    label: 'ivanzkyanto@outlook.com',
     icon: () => <SiGmail />,
   },
   {
