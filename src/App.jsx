@@ -8,7 +8,7 @@ import MainSection from './MainSection';
 import Footer from './Footer';
 
 function App() {
-  const [isBtnHidden, setIsBtnHidden] = useState(false);
+  const [isBtnHidden, setIsBtnHidden] = useState(true);
 
   useEffect(() => {
     const homeElement = document.getElementById('home');
