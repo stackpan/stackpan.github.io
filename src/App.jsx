@@ -14,7 +14,7 @@ function App() {
     const homeElement = document.getElementById('home');
 
     const handleScroll = () => {
-      setIsBtnHidden(window.scrollY <= homeElement.scrollHeight);
+      setIsBtnHidden(window.scrollY < homeElement.scrollHeight - 0.5);
     };
 
     window.addEventListener('scroll', handleScroll);
