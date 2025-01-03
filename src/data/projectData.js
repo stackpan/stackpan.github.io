@@ -20,7 +20,7 @@ const projects = [
   {
     name: 'Stageboard',
     description: 'JIT recorder and task management app just like kanban board.',
-    imageUrl: 'https://raw.githubusercontent.com/stackpan/stageboard/main/docs/img/board-page_screenshot.png',
+    imageUrl: 'https://raw.githubusercontent.com/rizzyone/stageboard/main/docs/img/board-page_screenshot.png',
     imageAlt: 'Stageboard screenshot preview',
     tags: [
       'Laravel',
@@ -31,13 +31,13 @@ const projects = [
       'MySQL',
       'WebSocket'
     ],
-    url: 'https://github.com/stackpan/stageboard',
+    url: 'https://github.com/rizzyone/stageboard',
     legacy: false,
   },
   {
     name: 'Simpliz',
     description: 'Simpliz is stands for simultaneously playable quiz. It is a quiz web app build by fullstack.',
-    imageUrl: 'https://github.com/stackpan/simpliz/raw/main/docs/assets/readme/img/answering_question_page_screenshot.png',
+    imageUrl: 'https://github.com/rizzyone/simpliz/raw/main/docs/assets/readme/img/answering_question_page_screenshot.png',
     imageAlt: 'Simpliz logo',
     tags: [
       'Laravel',
@@ -48,7 +48,7 @@ const projects = [
       'Redis',
       'WebSocket',
     ],
-    url: 'https://github.com/stackpan/simpliz',
+    url: 'https://github.com/rizzyone/simpliz',
     legacy: false,
   },
   {
